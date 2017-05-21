@@ -8,11 +8,10 @@ prod:
 
 # Installs development requirements.
 dev:
-	python3 -m venv env
-	source env/bin/activate
-	python3 setup.py develop
-	pip3 install -r requirements.txt
-	pip3 install --upgrade pip setuptools
+	source ./env/bin/activate; \
+	pip3 install -r requirements.txt; \
+	python3 setup.py develop; \
+	pip3 install --upgrade pip setuptools; \
 	npm install
 
 # Runs development server.
@@ -20,11 +19,6 @@ dev:
 run:
 	npm run dev & pserve development.ini --reload
 
-# Creates migrations and migrates database.
-# This step depends on `make dev`, however dependency is excluded to speed up dev server startup.
-migrate:
-	python ./manage makemigrations
-	python ./manage migrate
 
 # Builds files for distribution which will be placed in /static/dist
 build: prod migrate
