@@ -1,0 +1,51 @@
+{
+  "name": "pyramid_vue",
+  "version": "1.0.0",
+  "description": "Pyramid starterpack with Vuejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eddyekofo94/pyramidVue.git"
+  },
+  "keywords": [
+    "Vuejs",
+    "Pyramid",
+    "webframework",
+    "python",
+    "javascript",
+    "webpack"
+  ],
+  "author": "Eddy Ekofo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eddyekofo94/pyramidVue/issues"
+  },
+  "homepage": "https://github.com/eddyekofo94/pyramidVue#readme",
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "babel-runtime": "^6.23.0",
+    "css-loader": "^0.28.1",
+    "file-loader": "^0.11.1",
+    "node-sass": "^4.5.3",
+    "sass-loader": "^6.0.5",
+    "style-loader": "^0.17.0",
+    "vue-html-loader": "^1.2.4",
+    "vue-loader": "^12.1.0",
+    "vue-resource": "^1.3.1",
+    "vue-router": "^2.5.3",
+    "vue-style-loader": "^3.0.1",
+    "vue-template-compiler": "^2.3.3",
+    "vuex": "^2.3.1",
+    "webpack": "^2.5.1"
+  },
+  "dependencies": {
+    "vue": "^2.3.3"
+  }
+}
