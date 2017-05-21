@@ -14,7 +14,7 @@ Getting Started
 
 ### Development environment setup
 
-These steps will install all required dependencies including development ones, run migrations and start dev server.
+These steps will install all required dependencies including development ones, and start dev server.
 
 ```bash
 make dev
