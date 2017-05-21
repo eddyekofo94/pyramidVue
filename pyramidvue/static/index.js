@@ -1,4 +1,4 @@
-console.log('My javascript')
+console.log('My index.js')
 
 import Vue from 'vue'
 import App from './src/App.vue'

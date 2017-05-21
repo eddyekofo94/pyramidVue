@@ -1,6 +1,15 @@
 Pyramid Webframework with Vuejs & Webpack
 ==================
 
+## Features
+
+1. [Pyramid Webframework](http://docs.pylonsproject.org/projects/pyramid/en/latest/index.html)
+2. [Vue2](https://github.com/vuejs/vue)
+3. [Node.js](https://github.com/nodejs/node)
+4. [Webpack2](https://github.com/webpack/webpack)
+5. [Babel](https://github.com/babel/babel.git)
+6. [Yarn](https://github.com/yarnpkg/yarn)[packet manager]
+
 Getting Started
 ---------------
 ### First clone
@@ -8,17 +17,16 @@ Getting Started
 
 ## First create a virtual environment, otherwise by default python instance available will be used.
 
-`python3 -m venv ./env`
+make venv
     or
 `virtualenv -p python3 ./env` (if you have virtualenv installed)
 
 ### Development environment setup
 
-These steps will install all required dependencies including development ones, and start dev server.
+These steps will install all required dependencies, then run the server.
 
 ```bash
-# create a virtual environment
-make venv
+
 # download all the required requirements for development
 make dev
 # test your project
