@@ -7,11 +7,11 @@ venv:
 # Initializes virtual environment with basic requirements.
 prod:
 	source ./env/bin/activate; \
-	pip install -r requirements.txt
-	pserve production.ini
+	pip install -r requirements.txt; \
+	gunicorn --paste production.ini
 	npm install --production
 
-# Installs development requirements.
+# Installs development dependencies.
 dev:
 	source ./env/bin/activate; \
 	pip3 install -r requirements.txt; \
