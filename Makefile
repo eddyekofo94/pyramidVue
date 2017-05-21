@@ -1,5 +1,9 @@
 #Make sure you're working on a virtual environmant
 
+
+venv:
+	python3 -m venv env
+
 # Initializes virtual environment with basic requirements.
 prod:
 	pip install -r requirements.txt
