@@ -8,7 +8,7 @@ Pyramid Webframework with Vuejs & Webpack
 3. [Node.js](https://github.com/nodejs/node)
 4. [Webpack2](https://github.com/webpack/webpack)
 5. [Babel](https://github.com/babel/babel.git)
-6. [Yarn](https://github.com/yarnpkg/yarn)[packet manager]
+6. [Yarn](https://github.com/yarnpkg/yarn) [packet manager]
 
 Getting Started
 ---------------
@@ -17,7 +17,7 @@ Getting Started
 
 ## First create a virtual environment, otherwise by default python instance available will be used.
 
-make venv
+`make venv`
     or
 `virtualenv -p python3 ./env` (if you have virtualenv installed)
 
