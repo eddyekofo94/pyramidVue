@@ -17,7 +17,7 @@ dev:
 	pip3 install -r requirements.txt; \
 	pip3 install --upgrade pip setuptools; \
 	yarn generate-lock-entry; \
-	yarn add; \
+	yarn; \
 	python3 setup.py develop; \
 
 # runs tests for your project
