@@ -20,7 +20,7 @@
     "webpack"
   ],
   "author": "Eddy Ekofo",
-  "license": "",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/eddyekofo94/pyramidVue/issues"
   },

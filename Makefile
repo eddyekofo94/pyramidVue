@@ -19,6 +19,11 @@ dev:
 	npm install
 	python3 setup.py develop; \
 
+# runs tests for your project
+test:
+	source ./env/bin/activate; \
+	pytest; \
+
 # Runs development server.
 # This step depends on `make dev`, however dependency is excluded to speed up dev server startup.
 run:
@@ -35,6 +40,3 @@ clean:
 	rm -rf node_modules
 	rm -rf pyramidVue/static/dist
 
-# Run linter
-# lint:
-# 	@npm run lint --silent

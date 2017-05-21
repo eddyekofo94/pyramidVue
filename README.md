@@ -1,4 +1,4 @@
-Pyramid Webframework with Vue & Webpack
+Pyramid Webframework with Vuejs & Webpack
 ==================
 
 Getting Started
@@ -8,9 +8,9 @@ Getting Started
 
 ## First create a virtual environment, otherwise by default python instance available will be used.
 
-`python3 -m venv env`
+`python3 -m venv ./env`
     or
-`virtualenv -p python3 env` (if you have virtualenv installed)
+`virtualenv -p python3 ./env` (if you have virtualenv installed)
 
 ### Development environment setup
 
@@ -26,3 +26,11 @@ make run # run your project
 ```bash
 make build
 ```
+
+External links
+---------------
+http://docs.pylonsproject.org/projects/pyramid/en/latest/index.html
+
+https://vuejs.org
+
+https://webpack.js.org
