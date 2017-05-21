@@ -17,9 +17,14 @@ Getting Started
 These steps will install all required dependencies including development ones, and start dev server.
 
 ```bash
-make venv # create a virtual environment
-make dev # download all the required dependencies
-make run # run your project
+# create a virtual environment
+make venv
+# download all the required requirements for development
+make dev
+# test your project
+make test
+# run your project
+make run
 ```
 
 ### Deployment
