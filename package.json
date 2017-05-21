@@ -4,8 +4,8 @@
   "description": "Pyramid starterpack with Vuejs",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "webpack --watch"
+    "dev": "webpack --watch",
+    "build": "webpack --progress --hide-modules"
   },
   "repository": {
     "type": "git",
@@ -14,13 +14,13 @@
   "keywords": [
     "Vuejs",
     "Pyramid",
-    "webframework",
+    "babel",
     "python",
     "javascript",
     "webpack"
   ],
   "author": "Eddy Ekofo",
-  "license": "MIT",
+  "license": "",
   "bugs": {
     "url": "https://github.com/eddyekofo94/pyramidVue/issues"
   },

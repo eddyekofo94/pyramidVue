@@ -1,5 +1,4 @@
-# Use development settings for running django dev server.
-# export DJANGO_SETTINGS_MODULE=backend.settingsdev
+#Make sure you're working on a virtual environmant
 
 # Initializes virtual environment with basic requirements.
 prod:
@@ -17,17 +16,18 @@ dev:
 # Runs development server.
 # This step depends on `make dev`, however dependency is excluded to speed up dev server startup.
 run:
+	source ./env/bin/activate; \
 	npm run dev & pserve development.ini --reload
 
 
 # Builds files for distribution which will be placed in /static/dist
-build: prod migrate
+build:
 	npm run build
 
 # Cleans up folder by removing virtual environment, node modules and generated files.
 clean:
 	rm -rf node_modules
-	rm -rf static/dist
+	rm -rf pyramidVue/static/dist
 
 # Run linter
 # lint:

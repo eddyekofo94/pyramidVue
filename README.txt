@@ -1,12 +1,27 @@
-pyramidVue README
+Pyramid Webframework with Vue & Webpack
 ==================
 
 Getting Started
 ---------------
+### First clone
+`git clone https://github.com/eddyekofo94/pyramidVue.git`
 
-- cd <directory containing this file>
+## First create a virtual environment, otherwise by default python instance available will be used.
 
-- $VENV/bin/pip install -e .
+`python3 -m venv env`
+    or
+`virtualenv -p python3 env` (if you have virtualenv installed)
 
-- $VENV/bin/pserve development.ini
+### Development environment setup
 
+These steps will install all required dependencies including development ones, run migrations and start dev server.
+
+```bash
+make dev
+make run
+```
+
+### Deployment
+```bash
+make build
+```
