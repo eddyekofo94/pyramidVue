@@ -6,7 +6,7 @@ module.exports = {
   // Where should the compiled file go?
   output: {
     path: __dirname + '/pyramidvue/static/dist',
-    publicPath: '/pyramidvue/static/dist/',
+    publicPath: 'http://localhost:8080/pyramidvue/static/dist/',
     filename: 'build.js'
   },
   module: {
@@ -47,12 +47,11 @@ module.exports = {
         alias: {
             'vue$': 'vue/dist/vue.common.js'
         }
-    // },
-    // devServer: {
-    //   contentBase: path.join(__dirname, "pyramidvue/static/dist"),
-    //   publicPath: "http://localhost:8080/pyramidvue/static/dist/",
-    //   compress: true,
-    //   inline: false,
-    //   hot: false
+    },
+    devServer: {
+      contentBase: __dirname + "pyramidvue/static/dist",
+      publicPath: "http://localhost:8080/pyramidvue/static/dist/",
+      compress: true,
+      headers: { 'Access-Control-Allow-Origin': '*' }
     }
 }

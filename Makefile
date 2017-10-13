@@ -29,8 +29,8 @@ test:
 # This step depends on `make dev`, however dependency is excluded to speed up dev server startup.
 run:
 	source ./env/bin/activate; \
-	yarn run dev & gunicorn --paste development.ini --reload
 
+	webpack-dev-server --inline --hot & gunicorn --paste development.ini --reload
 
 # Builds files for distribution which will be placed in /static/dist
 build:
