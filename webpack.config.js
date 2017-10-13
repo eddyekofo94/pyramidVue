@@ -2,11 +2,11 @@
 
 module.exports = {
   // This is the "main" file which should include all other modules
-  entry: __dirname + '/pyramidVue/static/index.js',
+  entry: __dirname + '/pyramidvue/static/index.js',
   // Where should the compiled file go?
   output: {
-    path: __dirname + '/pyramidVue/static/dist',
-    publicPath: '/pyramidVue/static/dist/',
+    path: __dirname + '/pyramidvue/static/dist',
+    publicPath: '/pyramidvue/static/dist/',
     filename: 'build.js'
   },
   module: {
