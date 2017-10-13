@@ -28,7 +28,13 @@
     {% block content %}
         <p>No content</p>
     {% endblock content %}
-    <script src="{{request.static_url('pyramidvue:static/dist/build.js')}}" type="text/javascript"></script>
+
+    {% if request.registry.settings.get('webpack-dev-server',False) %}
+      <script src="http://localhost:8080/webpack-dev-server.js" type="text/javascript"></script>
+      <script src="http://localhost:8080/pyramidvue/static/dist/build.js" type="text/javascript"></script>
+    {% else %}
+      <script src="{{request.static_url('pyramidvue:static/dist/build.js')}}" type="text/javascript"></script>
+    {% endif %}
   </div>
 
 

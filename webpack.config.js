@@ -1,4 +1,4 @@
-
+// var path = require('path');
 
 module.exports = {
   // This is the "main" file which should include all other modules
@@ -6,7 +6,7 @@ module.exports = {
   // Where should the compiled file go?
   output: {
     path: __dirname + '/pyramidvue/static/dist',
-    publicPath: '/pyramidvue/static/dist/',
+    publicPath: 'http://localhost:8080/pyramidvue/static/dist/',
     filename: 'build.js'
   },
   module: {
@@ -47,5 +47,11 @@ module.exports = {
         alias: {
             'vue$': 'vue/dist/vue.common.js'
         }
+    },
+    devServer: {
+      contentBase: __dirname + "pyramidvue/static/dist",
+      publicPath: "http://localhost:8080/pyramidvue/static/dist/",
+      compress: true,
+      headers: { 'Access-Control-Allow-Origin': '*' }
     }
 }
