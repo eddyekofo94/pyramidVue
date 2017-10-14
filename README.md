@@ -13,15 +13,21 @@ Pyramid Webframework with Vuejs & Webpack (HMR thanks to [Thijs Damsma](https://
 Getting Started
 ---------------
 ### First clone
-`git clone https://github.com/eddyekofo94/pyramidVue.git`
+
+```bash
+git clone https://github.com/eddyekofo94/pyramidVue.git`
+```
 
 ## First create a virtual environment, otherwise by default python instance available will be used (I recomend the former).
 
-`make venv`
-    or
-`virtualenv -p python3 ./env` (if you have virtualenv installed)
+```bash
+make venv
+# or if you have virtualenv installed
+virtualenv -p python3 ./env
+```
 
-Make sure you activate your vitual environment!!
+### Make sure you activate your vitual environment!!
+
 ```bash
 
 source env/bin/activate
