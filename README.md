@@ -21,6 +21,12 @@ Getting Started
     or
 `virtualenv -p python3 ./env` (if you have virtualenv installed)
 
+Make sure you activate your vitual environment!!
+```bash
+
+source env/bin/activate
+```
+
 ### Development environment setup
 
 These steps will install all required dependencies, then run the server.
@@ -32,7 +38,7 @@ make dev
 # test your project
 make test
 # run your project
-# webpack-dev-server runs on localhost:8080
+# Go to: localhost:6543 (webpack-dev-server runs on localhost:8080)
 make run
 ```
 
