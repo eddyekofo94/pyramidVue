@@ -15,7 +15,7 @@ Getting Started
 ### First clone
 
 ```bash
-git clone https://github.com/eddyekofo94/pyramidVue.git`
+git clone https://github.com/eddyekofo94/pyramidVue.git
 ```
 
 ## First create a virtual environment, otherwise by default python instance available will be used (I recomend the former).
@@ -47,6 +47,18 @@ make test
 # Go to: localhost:6543 (webpack-dev-server runs on localhost:8080)
 make run
 ```
+
+### Errors encountered
+
+```bash
+# Don't have the webpack-dev-server installed
+/bin/sh: webpack-dev-server: command not found
+
+# Fix:
+yarn global add webpack-dev-server
+```
+
+```bash
 
 ### Deployment
 ```bash
