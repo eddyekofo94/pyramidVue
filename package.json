@@ -45,7 +45,7 @@
     "webpack-dev-server": "^2.9.1"
   },
   "dependencies": {
-    "vue": "^2.3.3",
+    "vue": "2.5.16",
     "yarn": "^0.24.4"
   }
 }
