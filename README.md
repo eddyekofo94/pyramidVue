@@ -26,7 +26,7 @@ make venv
 virtualenv -p python3 ./env
 ```
 
-### Make sure you activate your vitual environment!!
+### Make sure you activate your virtual environment!!
 
 ```bash
 
