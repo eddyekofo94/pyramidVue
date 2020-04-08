@@ -42,7 +42,7 @@
     "vue-template-compiler": "^2.3.3",
     "vuex": "^2.3.1",
     "webpack": "^3.7.1",
-    "webpack-dev-server": "^2.9.1"
+    "webpack-dev-server": "^3.1.11"
   },
   "dependencies": {
     "vue": "2.5.16",
