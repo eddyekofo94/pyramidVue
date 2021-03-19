@@ -2,7 +2,7 @@ beautifulsoup4==4.6.0
 coverage==4.4.1
 gunicorn==19.7.1
 hupper==1.0
-Jinja2==2.9.6
+Jinja2==2.11.3
 Mako==1.0.6
 MarkupSafe==1.0
 PasteDeploy==1.5.2
