@@ -9,7 +9,7 @@ PasteDeploy==1.5.2
 plaster==0.4
 plaster-pastedeploy==0.2.1
 py==1.4.33
-Pygments==2.2.0
+Pygments==2.7.4
 pyramid==1.9a2
 pyramid-debugtoolbar==4.0.1
 pyramid-jinja2==2.7
