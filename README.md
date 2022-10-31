@@ -18,7 +18,7 @@ Getting Started
 git clone https://github.com/eddyekofo94/pyramidVue.git
 ```
 
-## First create a virtual environment, otherwise by default python instance available will be used (I recomend the former).
+## First create a virtual environment, otherwise by default python instance available will be used (I recommend the former).
 
 ```bash
 make venv
